@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML要素紹介ページ</title>
+        <link href="styles/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>HTML要素紹介</h1>
+        <p>学生番号:5421081 氏名:江刺裕太</p>
+        <p>※これは日本大学文理学部情報科学科Webプログラミングの演習課題である。</p>
+        <h2>・the button element</h2>
+        <h3>(1)説明</h3>
+        <p>ボタンを作るための要素である。
+            ボタンをクリックすることで、任意の動作をつけることができる。
+            ボタンの外見を変えたい時は、CSSを使うと変えることができる。
+        </p>
+        <h3>(2)いくつかのアークアップ例</h3>
+        <pre>
+
+            &lt!DOCTYPE html&gt
+            &lthtml&gt
+                &lthead&gt
+                    &ltmeta charset="utf-8"&gt
+                    &lttitle&gtテスト１&lt/title&gt
+                &lt/head&gt
+                &ltbody&gt
+                    &ltbutton>button&lt/button&gt
+                &lt/body&gt
+            &lt/html&gt
+
+        </pre>
+        <h3>(3)動作結果</h3>
+        <button>button</button>
+        <h2>・the title element</h2>
+        <h3>(1)説明</h3>
+        <p>Webページのタイトルを表す要素である。
+            ページのタブや、検索されたときに出るサイト名を表す要素である。
+            テキスト以外は記入できないことに注意しなければならない。
+            Webページを開いたときに、１番上にある見出しのようなものとは別なので注意しなければならない。
+        </p>
+        <h3>(2)いくつかのアークアップ例</h3>
+        <pre>
+
+            &lt!DOCTYPE html&gt
+            &lthtml&gt
+                &lthead&gt
+                    &ltmeta charset="utf-8"&gt
+                    &lttitle&gtここがtitle要素で変わる部分である&lt/title&gt
+                    &lt/head&gt
+                &ltbody&gt
+                    
+                &lt/body&gt
+            &lt/html&gt 
+
+        </pre>
+        <h3>(3)動作結果</h3>
+        <p>※実行結果は上記コード実行結果のスクリーンショット</p>
+        <img src="images/test2.png" alt="test2">
+        <h2>・the h1, h2, h3, h4, h5, and h6 element</h2>
+        <h3>(1)説明</h3>
+        <p>&lth1&gt,&lth2&gt,&lth3&gt,&lth4&gt,&lth5&gt,&lth6&gtは見出しを表す要素である。
+            &lth1&gtが最も主要な見出しである。数字が小さいほど主要な見出しとなる。
+            主要な見出しであるほど字のサイズは大きくなる。
+            基本的に番号の小さいタグから使うべきである。
+        </p>
+        <h3>(2)いくつかのアークアップ例</h3>
+        <pre>
+            &lt!DOCTYPE html&gt
+            &lthtml&gt
+                &lthead&gt
+                    &ltmeta charset="utf-8"&gt
+                    &lttitle&gtテスト3&lt/title&gt
+                &lt/head&gt
+                &ltbody&gt
+                    &lth1&gtこれが&lth1&gtタグで書いた見出しである。&lt/h1&gt
+                    &lth2&gtこれが&lth2&gtタグで書いた見出しである。&lt/h2&gt
+                    &lth3&gtこれが&lth3&gtタグで書いた見出しである。&lt/h3&gt
+                    &lth4&gtこれが&lth4&gtタグで書いた見出しである。&lt/h4&gt
+                    &lth5&gtこれが&lth5&gtタグで書いた見出しである。&lt/h5&gt
+                    &lth6&gtこれが&lth6&gtタグで書いた見出しである。&lt/h6&gt
+                &lt/body&gt
+            &lt/html>&gt
+        </pre>
+        <h3>(3)動作結果</h3>
+        <p>※実行結果は上記コード実行結果のスクリーンショット</p>      
+        <img src="images/test3.png" alt="test3">
+        <h2>・参考文献</h2>
+        <pre>
+            <p>mdn web docs&#046;&ltbutton&gt: ボタン要素 - HTML: HyperText Markup Language&#046;<cite><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/button">https://developer.mozilla.org/ja/docs/Web/HTML/Element/button</a></cite>&#046;(閲覧：2022年10月21日)</p>
+            <p>mdn web docs&#046;&lttitle&gt:文書題名要素 - HTML: HyperText Markup Language&#046;<cite><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/title">https://developer.mozilla.org/ja/docs/Web/HTML/Element/title</a></cite>&#046;(閲覧：2022年10月21日)</p>
+            <p>Chorono Drive&#046;titleタグとは|コーディングのプロが作るHTMLタグ辞典&#046;<cite><a href="https://html-coding.co.jp/annex/dictionary/html/title/.">https://html-coding.co.jp/annex/dictionary/html/title/.</a></cite>&#046;(閲覧：2022年10月21日)</p>
+        </pre>
+
+    </body>
+</html>
